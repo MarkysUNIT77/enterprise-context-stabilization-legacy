@@ -22,9 +22,6 @@ By mapping localized operations into the wider system topology, the stabilizer e
 * **Prompt Injection Mitigation:** Active output validation filters designed to drain anomalous entropy and state spikes before they affect the main inference loop.
 * **Shared Memory Substrate:** Employs fast binary array persistence via `np.memmap` weights serialization, completely eliminating cross-thread data duplication overhead (Runtime Overhead: 0.00%).
 
-## Latent Core Tags
-`[frequency-filter-middleware]` `[enterprise]` `[low-resource-llm]` `[frequency-filter]` `[context-stabilization]`
-
 ## Technical Specifications
 
 * **Target Frequency:** 80.08 Hz (Locked)
