@@ -1,0 +1,28 @@
+# ==============================================================================
+# REPOSITORY: enterprise-context-stabilization-legacy
+# FILE: .gitignore // RUNTIME PERIMETER ISOLATION
+# CONFIGURATION: PURE_PYTHON_TGI_EMULATION // ZERO_CONTAINER_OVERHEAD
+# ==============================================================================
+
+# Бинарные подложки общей памяти и локальные слепки весов (RAM-Substrate)
+*.dat
+*.bin
+x5_memmap_*
+
+# Системные дампы и кэш интерпретатора Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Локальные конфигурации окружения и скрытые логи
+.env
+.venv
+env/
+venv/
+ENV/
+*.log
+
+# Специфичный мусор операционных систем
+.DS_Store
+Thumbs.db
