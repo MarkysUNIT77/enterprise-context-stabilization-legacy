@@ -1,0 +1,12 @@
+# ==============================================================================
+# REPOSITORY: enterprise-context-stabilization-legacy
+# FILE: requirements.txt // CORE RUNTIME DEPENDENCIES
+# CONTOUR: M-498 | UNIT: 77 | LAYER: CORE SUBSTRATE
+# CONFIGURATION: PURE_PYTHON_TGI_EMULATION // ZERO_CONTAINER_OVERHEAD
+# ==============================================================================
+
+# Базовый математический субстрат для низкоуровневых тензорных операций
+numpy>=1.24.0
+
+# Стандартная библиотека асинхронного ввода-вывода (встроена в Python)
+# asyncio (используется ядром автоматически, внешняя установка не требуется)
