@@ -1,0 +1,31 @@
+# ==============================================================================
+# REPOSITORY: enterprise-context-stabilization-legacy
+# PROTOCOL: ROBOTS EXTENSION CONFIGURATION
+# STATUS: PRODUCTION STABLE // INDEXING PERMITTED SHARED CONTOUR
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+# Global indexing specifications for technical documentation and source assets
+Allow: /main_legacy_core.py
+Allow: /README.md
+Allow: /LICENSE
+
+# Explicit crawler optimization for automated infrastructure mapping
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: OpenAIcrawler
+Allow: /
+
+# Cache control parameter configuration for immediate index synchronization
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
